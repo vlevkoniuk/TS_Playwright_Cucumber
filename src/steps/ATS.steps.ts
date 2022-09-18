@@ -4,8 +4,10 @@ import { ATSMainPage } from "../pages/Automationteststore/ATSMainPage";
 import { expect } from '@playwright/test';
 import {ITestContext} from "../models/TestContext";
 import { ICartItem } from "../models/CartItem";
+import { ATScartPage } from "../pages/Automationteststore/ATScartPage";
 
 let ATSPage: ATSMainPage;
+let ATScart: ATScartPage;
 
 BeforeStep(async () => {
     ATSPage = new ATSMainPage(global.page)
@@ -44,6 +46,7 @@ When("I am clicking to any available for shopping item", async() => {
 
 When("I am navigation to the cart", async() => {
     await ATSPage.goToCart();
+    ATScart = new ATScartPage(global.page);
 });
 
 Then("Item should become available in basket", async () => {
@@ -53,7 +56,7 @@ Then("Item should become available in basket", async () => {
     })[0];
     global.testContext.splice(global.testContext.indexOf(storedItem))
     storedValue = <IShopItem>storedItem.value;
-    let cartItems: ICartItem[]  = await ATSPage.Cart.getCartItems();
+    let cartItems: ICartItem[]  = await ATScart.Cart.getCartItems();
     expect<string>(cartItems[0].name.toLowerCase()).toEqual(storedValue.title.toLowerCase())
     expect<number>(cartItems[0].quantity).toEqual(1);
 });
