@@ -11,7 +11,7 @@ import { binding, given, then, when, before} from 'cucumber-tsflow';
 
 
 @binding()
-export class HomePageSteps {
+export class AutomationTestingStoreSteps {
 
   ATSPage: ATSMainPage;
   ATScart: ATScartPage;
