@@ -3,11 +3,10 @@
 # To start the test do the following steps
 - git clone
 - cd to the root of project
-- mkdir reports
 - npm install
-- npm run cucumber-test
+- npm run test 
 
 
 # To view the test results
 - see the output of the npm run cmd
-- or open report/report.html
+- or open Reports/*.html

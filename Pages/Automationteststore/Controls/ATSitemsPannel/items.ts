@@ -1,6 +1,6 @@
 import { Locator, Page, expect } from "@playwright/test";
 import { Basepage } from "../../../BasePage";
-import { IShopItem } from "../../../../models/ShopItem"
+import { IShopItem } from "../../../../src//models/ShopItem"
 
 export class ATSitems extends Basepage {
     // Define Page Selectors/Elements

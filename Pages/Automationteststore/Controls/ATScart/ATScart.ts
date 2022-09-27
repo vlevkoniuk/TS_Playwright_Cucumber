@@ -1,11 +1,11 @@
 import { Locator, Page, expect } from "@playwright/test";
 import { Basepage } from "../../../BasePage";
 import {ATSitems} from "../ATSitemsPannel/items"
-import {ICartItem} from "../../../../models/CartItem";
+import {ICartItem} from "../../../../src/models/CartItem";
 
 export class ATScart extends Basepage {
     // Define Page Selectors/Elements
-    get ATSitem() {return new ATSitems(page)}
+    get ATSitem() {return new ATSitems(this.page)}
     readonly itemsTable: Locator;
     readonly tableHeadersSelector: string;
     readonly tableRowsSelector: string;

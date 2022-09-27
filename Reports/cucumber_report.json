@@ -1,0 +1,590 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-test-task-i-am-implementing-those-2-stories;automationteststore.com-page-and-try-searching-smth",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "automationteststore.com page and try searching smth",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 245592299
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 386500
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 932199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "automationteststore.com website is opened",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1449633400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I am entering search text \"eye\" in \"Skincare\" category",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2128467299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Search results should contain items with \"eye\" entries",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69883599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 108999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43962599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AutomationteststoreSiteTesting",
+            "line": 1
+          },
+          {
+            "name": "@debug",
+            "line": 1
+          },
+          {
+            "name": "@SearchReturnsResults",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-test-task-i-am-implementing-those-2-stories;go-to-the-automationteststore.com-page-and-try-shopping-smth",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Go to the automationteststore.com page and try shopping smth",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 170115000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124800
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 382800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "automationteststore.com website is opened",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2730316499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I am selecting \"Books\" and \"Paperback\"",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 792841499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I am clicking to any available for shopping item",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393103399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I am navigation to the cart",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 471846899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Item should become available in basket",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260410000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31554099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AutomationteststoreSiteTesting",
+            "line": 1
+          },
+          {
+            "name": "@debug",
+            "line": 1
+          },
+          {
+            "name": "@AbleToShopSomething",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-test-task-i-am-implementing-those-2-stories;go-to-the-automationteststore.com-page-and-try-shopping-smth",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Go to the automationteststore.com page and try shopping smth",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168074400
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 132399
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 105499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "automationteststore.com website is opened",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 969936100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I am selecting \"Apparel & accessories\" and \"T-shirts\"",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 277696099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I am clicking to any available for shopping item",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365584999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I am navigation to the cart",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182187699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Item should become available in basket",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270937500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 36769400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AutomationteststoreSiteTesting",
+            "line": 1
+          },
+          {
+            "name": "@debug",
+            "line": 1
+          },
+          {
+            "name": "@AbleToShopSomething",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-test-task-i-am-implementing-those-2-stories",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "As a test task I am implementing those 2 stories",
+    "tags": [
+      {
+        "name": "@AutomationteststoreSiteTesting",
+        "line": 1
+      },
+      {
+        "name": "@debug",
+        "line": 1
+      }
+    ],
+    "uri": "Tests\\Features\\automatioteststore.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "bank-account;stores-money",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Stores money",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 174350999
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46599
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A bank account with starting balance of $100",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 441299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "$100 is deposited",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The bank account balance should be $200",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33268000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "bank-account",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Bank Account",
+    "tags": [],
+    "uri": "Tests\\Features\\bank-account.feature"
+  },
+  {
+    "description": "  A random feature using some Playwright stuff",
+    "elements": [
+      {
+        "description": "",
+        "id": "random;govuk-accessibility-statement-link",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Govuk accessibility statement link",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 160481500
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78299
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I view 'www.gov.uk'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538201599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click 'Accessibility statement'",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213429300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I expect to be on the accessibility page",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101503499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32536400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@debug",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "random",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Random",
+    "tags": [],
+    "uri": "Tests\\Features\\homepage.feature"
+  }
+]

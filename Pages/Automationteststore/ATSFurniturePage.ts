@@ -32,7 +32,7 @@ export class ATSFurniturePage extends Basepage {
       console.log("entering search text");
       await this.searchInput.fill(searchText);
       await this.page.keyboard.press("Enter");
-      await page.waitForNavigation();
+      await this.page.waitForNavigation();
     }
 
     public async searchSpecificCategory(searchText: string, category: string) {
@@ -52,7 +52,7 @@ export class ATSFurniturePage extends Basepage {
 
       await this.searchInput.fill(searchText);
       await this.page.keyboard.press("Enter");
-      await page.waitForNavigation();
+      await this.page.waitForNavigation();
     }
 
     public async getMenuOptions(): Promise<string[]> {
@@ -107,7 +107,7 @@ export class ATSFurniturePage extends Basepage {
         throw new Error(`there is no such subcategory ${subcategory} for category ${category}`)
       }
 
-      await page.waitForNavigation();
+      await this.page.waitForNavigation();
     }
 
     public async goToCart() {

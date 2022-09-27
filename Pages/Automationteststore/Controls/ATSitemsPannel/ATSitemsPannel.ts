@@ -1,15 +1,11 @@
 import { Locator, Page, expect } from "@playwright/test";
-import { Basepage } from "../BasePage";
-import {ATSitemsPannel} from "../Automationteststore/Controls/ATSitemsPannel/ATSitemsPannel"
-import { ATSsubCategoriesPannel } from "../Automationteststore/Controls/ATSsubCategoriesPannel/ATSsubCategoriesPannel"
+import { Basepage } from "../../../BasePage";
+import {ATSitems} from "../ATSitemsPannel/items"
 
-export class ATSMainContainer extends Basepage {
+export class ATSitemsPannel extends Basepage {
     // Define Page Selectors/Elements
-    get ItemsPannel() {return new ATSitemsPannel(page)}
-    get SubCategoriesPannel() {return new ATSsubCategoriesPannel(page)}
-
-
-    readonly maincontainer: Locator;
+    get ATSitem() {return new ATSitems(this.page)}
+    readonly itemspannel: Locator;
     readonly categoryMenuOptions: Locator;
     readonly subcategoryMenuOptions: Locator;
     readonly searchInput: Locator;
@@ -21,7 +17,7 @@ export class ATSMainContainer extends Basepage {
     // Initialize page elements using class constructor
     constructor(page: Page) {
       super(page);
-      this.maincontainer = page.locator("div#maincontainer>div div.contentpanel");
+      this.itemspannel = page.locator("div.contentpanel>div.list-inline");
       this.categoryMenuOptions = page.locator("ul.categorymenu>li>a");
       this.subcategoryOptionsSelector = "div.subcategories>ul:nth-child(1)>li>a:nth-child(1)";
       this.subcategoryMenuOptions = page.locator("div.subcategories>ul:nth-child(1)>li>a:nth-child(1)");
@@ -29,7 +25,4 @@ export class ATSMainContainer extends Basepage {
       this.searchCategoryOptions = page.locator("ul#search-category>li>a");
       this.baseLink = page.locator("div.navbar-header>a");
     }
-    
-    
-    
-  }
+}

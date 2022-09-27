@@ -4,7 +4,7 @@ import { ATSsubcategories } from "../ATSsubCategoriesPannel/subcategories"
 
 export class ATSsubCategoriesPannel extends Basepage {
     // Define Page Selectors/Elements
-    get SubCategories() {return new ATSsubcategories(page)}
+    get SubCategories() {return new ATSsubcategories(this.page)}
     readonly subcategories: Locator;
     // ...
   
@@ -13,6 +13,4 @@ export class ATSsubCategoriesPannel extends Basepage {
       super(page);
       this.subcategories = page.locator("div.contentpanel ul>li div>a");
     }
-
-    
 }
