@@ -1,4 +1,4 @@
-import {After, Before, BeforeAll, AfterAll, setDefaultTimeout} from "@cucumber/cucumber";
+import {After, Before, BeforeAll, AfterAll, setDefaultTimeout, Status} from "@cucumber/cucumber";
 import {Browser, BrowserContext, chromium, Page} from "playwright";
 import { ITestContext } from "../models/ITextContext";
 
@@ -23,7 +23,10 @@ BeforeAll(async () => {
     page = await context.newPage();
   });
   
-  After(async () => {
+  After(async function(Scenario) {
+    if (Scenario.result.status != Status.PASSED)
+      await this.attach(await page.screenshot({path: `./Screenshots/${Scenario.pickle.name}_${Date.now()}.png`, fullPage: true}), "image/png");
+    
     console.log("Closing context and page...");
     await page.close();
     await context.close();
