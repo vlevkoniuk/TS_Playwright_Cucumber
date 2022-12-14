@@ -14,8 +14,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "npx cucumber-js -p test_runner & node ./htmlReportGenerator.ts",
-    "debug": "npx cucumber-js -p test_runner --tags @debug & node ./htmlReportGenerator.ts"
+    "test": "set $env:PWDEBUG=0 && npx cucumber-js -p test_runner & node ./htmlReportGenerator.ts",
+    "debug": "set $env:PWDEBUG=0 && npx cucumber-js -p test_runner --tags @debug & node ./htmlReportGenerator.ts",
+    "debug-pw": "set $env:PWDEBUG=1 && npx cucumber-js -p test_runner --tags @debug"
   },
   "dependencies": {
     "@types/cucumber-html-reporter": "^5.0.1",

@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 245592299
+              "duration": 1296677100
             }
           },
           {
@@ -22,7 +22,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 386500
+              "duration": 754200
             }
           },
           {
@@ -30,7 +30,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 932199
+              "duration": 1436599
             }
           },
           {
@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1449633400
+              "duration": 24592660199
             }
           },
           {
@@ -55,8 +55,9 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
             },
             "result": {
-              "status": "passed",
-              "duration": 2128467299
+              "status": "failed",
+              "duration": 34936290600,
+              "error_message": "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"ul#search-category>li>a >> nth=4\"\n  selector resolved to hidden <a id=\"category_43\">Skincare</a>\nattempting click action\n  waiting for element to be visible, enabled and stable\n    element is not visible - waiting...\n============================================================\n    at ATSMainPage.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\ATSFurniturePage.ts:121:104)\n    at step (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\ATSFurniturePage.ts:48:23)\n    at Object.next (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\ATSFurniturePage.ts:29:53)\n    at fulfilled (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\ATSFurniturePage.ts:20:58)"
             }
           },
           {
@@ -68,8 +69,8 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
             },
             "result": {
-              "status": "passed",
-              "duration": 69883599
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -77,15 +78,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 108999
+              "duration": 293400
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 43962599
+              "status": "failed",
+              "duration": 4793400,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:88:47)\n    at step (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:33:23)\n    at Object.next (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:14:53)\n    at C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:8:71\n    at __awaiter (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:4:12)\n    at World.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:81:12)"
             }
           }
         ],
@@ -100,6 +102,10 @@
           },
           {
             "name": "@SearchReturnsResults",
+            "line": 4
+          },
+          {
+            "name": "@debug",
             "line": 4
           }
         ],
@@ -117,7 +123,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 170115000
+              "duration": 1326671599
             }
           },
           {
@@ -125,7 +131,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 124800
+              "duration": 319499
             }
           },
           {
@@ -133,7 +139,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 382800
+              "duration": 338100
             }
           },
           {
@@ -146,7 +152,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2730316499
+              "duration": 26710704599
             }
           },
           {
@@ -158,8 +164,9 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
             },
             "result": {
-              "status": "passed",
-              "duration": 792841499
+              "status": "failed",
+              "duration": 14998605100,
+              "error_message": "locator.count: Target page, context or browser has been closed\n    at ATSsubcategories.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:102:69)\n    at step (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:48:23)\n    at Object.next (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:29:53)\n    at C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:23:71\n    at __awaiter (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:19:12)\n    at ATSsubcategories.getSubCats (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:98:16)\n    at ATSsubcategories.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:82:55)\n    at step (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:48:23)\n    at Object.next (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:29:53)\n    at C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:23:71\n    at __awaiter (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:19:12)\n    at ATSsubcategories.selectSubCategory (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\Controls\\ATSsubCategoriesPannel\\subcategories.ts:78:16)\n    at AutomationTestingStoreSteps.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Tests\\Step-definitions\\automatioteststore.steps.ts:112:103)\n    at step (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Tests\\Step-definitions\\automatioteststore.steps.ts:39:23)\n    at Object.next (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Tests\\Step-definitions\\automatioteststore.steps.ts:20:53)\n    at fulfilled (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Tests\\Step-definitions\\automatioteststore.steps.ts:11:58)"
             }
           },
           {
@@ -171,8 +178,8 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
             },
             "result": {
-              "status": "passed",
-              "duration": 393103399
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -184,8 +191,8 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
             },
             "result": {
-              "status": "passed",
-              "duration": 471846899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -197,8 +204,8 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
             },
             "result": {
-              "status": "passed",
-              "duration": 260410000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -206,15 +213,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 27599
+              "duration": 528899
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 31554099
+              "status": "failed",
+              "duration": 3055899,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:88:47)\n    at step (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:33:23)\n    at Object.next (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:14:53)\n    at C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:8:71\n    at __awaiter (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:4:12)\n    at World.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:81:12)"
             }
           }
         ],
@@ -246,7 +254,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 168074400
+              "duration": 1375502200
             }
           },
           {
@@ -254,7 +262,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 132399
+              "duration": 404199
             }
           },
           {
@@ -262,7 +270,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 105499
+              "duration": 431999
             }
           },
           {
@@ -274,8 +282,9 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
             },
             "result": {
-              "status": "passed",
-              "duration": 969936100
+              "status": "failed",
+              "duration": 6862806900,
+              "error_message": "page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://automationteststore.com/\", waiting until \"load\"\n============================================================\n    at ATSMainPage.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\ATSMainPage.ts:76:60)\n    at step (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\ATSMainPage.ts:48:23)\n    at Object.next (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\ATSMainPage.ts:29:53)\n    at C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\ATSMainPage.ts:23:71\n    at __awaiter (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\ATSMainPage.ts:19:12)\n    at ATSMainPage.goToPage (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Pages\\Automationteststore\\ATSMainPage.ts:73:16)\n    at AutomationTestingStoreSteps.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Tests\\Step-definitions\\automatioteststore.steps.ts:68:55)\n    at step (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Tests\\Step-definitions\\automatioteststore.steps.ts:39:23)\n    at Object.next (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Tests\\Step-definitions\\automatioteststore.steps.ts:20:53)\n    at C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Tests\\Step-definitions\\automatioteststore.steps.ts:14:71\n    at __awaiter (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Tests\\Step-definitions\\automatioteststore.steps.ts:10:12)\n    at AutomationTestingStoreSteps.OpenPage (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\Tests\\Step-definitions\\automatioteststore.steps.ts:63:16)\n    at World.bindingFunc (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:181:22)"
             }
           },
           {
@@ -287,8 +296,8 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
             },
             "result": {
-              "status": "passed",
-              "duration": 277696099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -300,8 +309,8 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
             },
             "result": {
-              "status": "passed",
-              "duration": 365584999
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -313,8 +322,8 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
             },
             "result": {
-              "status": "passed",
-              "duration": 182187699
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -326,8 +335,8 @@
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
             },
             "result": {
-              "status": "passed",
-              "duration": 270937500
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -335,15 +344,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 19899
+              "duration": 57799
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 36769400
+              "status": "failed",
+              "duration": 3861199,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:88:47)\n    at step (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:33:23)\n    at Object.next (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:14:53)\n    at C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:8:71\n    at __awaiter (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:4:12)\n    at World.<anonymous> (C:\\Users\\viacheslav.levkoniuk\\source\\repos\\TS_Playwright_Cucumber\\src\\hooks\\World.ts:81:12)"
             }
           }
         ],
@@ -379,212 +389,5 @@
       }
     ],
     "uri": "Tests\\Features\\automatioteststore.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "bank-account;stores-money",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "Stores money",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 174350999
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 46599
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 59300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "A bank account with starting balance of $100",
-            "match": {
-              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 441299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "$100 is deposited",
-            "match": {
-              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 185999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "The bank account balance should be $200",
-            "match": {
-              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 304300
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 9599
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 33268000
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "bank-account",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "Bank Account",
-    "tags": [],
-    "uri": "Tests\\Features\\bank-account.feature"
-  },
-  {
-    "description": "  A random feature using some Playwright stuff",
-    "elements": [
-      {
-        "description": "",
-        "id": "random;govuk-accessibility-statement-link",
-        "keyword": "Scenario",
-        "line": 5,
-        "name": "Govuk accessibility statement link",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 160481500
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 78299
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 75900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "I view 'www.gov.uk'",
-            "match": {
-              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 538201599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I click 'Accessibility statement'",
-            "match": {
-              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 213429300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "I expect to be on the accessibility page",
-            "match": {
-              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 101503499
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 17099
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 32536400
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@debug",
-            "line": 4
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "random",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Random",
-    "tags": [],
-    "uri": "Tests\\Features\\homepage.feature"
   }
 ]

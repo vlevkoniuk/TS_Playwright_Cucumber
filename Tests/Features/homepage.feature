@@ -1,7 +1,6 @@
 Feature: Random
   A random feature using some Playwright stuff
 
-  @debug
   Scenario: Govuk accessibility statement link
     Given I view 'www.gov.uk'
     When I click 'Accessibility statement'

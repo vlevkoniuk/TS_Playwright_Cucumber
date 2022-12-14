@@ -1,7 +1,7 @@
-@AutomationteststoreSiteTesting @debug
+@AutomationteststoreSiteTesting
 Feature: As a test task I am implementing those 2 stories
 
-    @SearchReturnsResults
+    @SearchReturnsResults @debug
     Scenario: automationteststore.com page and try searching smth
         Given automationteststore.com website is opened
         When I am entering search text "eye" in "Skincare" category
