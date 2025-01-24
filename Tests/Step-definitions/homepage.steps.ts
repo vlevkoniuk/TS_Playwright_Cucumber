@@ -22,7 +22,7 @@ export class HomePageSteps {
   @then("I expect to be on the accessibility page")
   public async ExpectToBeOnAccessabilityPage() {
     const heading1Text = (await page.textContent("h1")) as string;
-    assert.strictEqual(trimExcessWhiteSpace(heading1Text), "Accessibility statement");
+    assert.strictEqual(trimExcessWhiteSpace(heading1Text), "Accessibility statement for www.gov.uk");
   }
 }
 

@@ -78,7 +78,16 @@ export class ATSFurniturePage extends Basepage {
     public async selectCategory(category: string) {
       var options = await this.getMenuOptions();
       if (options.includes(category.toUpperCase())) {
-        await this.categoryMenuOptions.nth(options.indexOf(category)).click();
+        const categories = await this.categoryMenuOptions.all()
+        for (const categoryLocator of categories) {
+          const name = await categoryLocator.textContent();
+          console.log(name);
+          if (name.toLocaleUpperCase().includes( category.toUpperCase())) {
+            await categoryLocator.click();
+            break;
+          }
+        }
+        //await this.categoryMenuOptions.nth(options.indexOf(category)).click();
       }
       //await page.waitForNavigation();
     }

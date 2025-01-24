@@ -6,8 +6,7 @@ import {ITestContext} from "../../src/models/ITextContext";
 import { ICartItem } from "../../src/models/CartItem";
 import { ATScartPage } from "../../Pages/Automationteststore/ATScartPage";
 import { page, testContext } from "../../src/hooks/World";
-import { binding, given, then, when, before} from 'cucumber-tsflow';
-
+import { binding, given, then, when, before, beforeAll} from 'cucumber-tsflow';
 
 
 @binding()
@@ -58,7 +57,7 @@ export class AutomationTestingStoreSteps {
     await randomItem.basketLocator.click()
   }
 
-  @when("I am navigation to the cart")
+  @when("I am navigating to the cart")
   public async NavigateToCart() {
     await this.ATSPage.goToCart();
     this.ATScart = new ATScartPage(page);

@@ -12,9 +12,9 @@ Feature: As a test task I am implementing those 2 stories
         Given automationteststore.com website is opened
         When I am selecting "<category>" and "<subcategory>"
         When I am clicking to any available for shopping item
-        When I am navigation to the cart
+        When I am navigating to the cart
         Then Item should become available in basket
         Examples:
-             | category                     | subcategory   |
-             | Books                        | Paperback     |
-             | Apparel & accessories        | T-shirts     |
+            | category                     | subcategory   |
+            | Books                        | Paperback     |
+            | Apparel & accessories        | T-shirts     |
