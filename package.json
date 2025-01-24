@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@cucumber/cucumber": "^9.6.0",
     "@playwright/test": "^1.50.0",
     "@types/chai": "^5.0.1",
     "@types/cucumber": "^7.0.3",
@@ -7,8 +8,7 @@
     "cucumber-pretty": "^6.0.1",
     "cucumber-tsflow": "^4.4.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3",
-    "@cucumber/cucumber": "^9.6.0"
+    "typescript": "^5.7.3"
   },
   "name": "cucumber-with-typescript",
   "version": "1.0.0",
@@ -19,6 +19,7 @@
     "debug-pw": "set $env:PWDEBUG=1 && npx cucumber-js -p test_runner --tags @debug"
   },
   "dependencies": {
+    "@cucumber/pretty-formatter": "^1.0.1",
     "@types/cucumber-html-reporter": "^5.0.4",
     "cucumber-html-reporter": "^7.2.0",
     "playwright": "^1.50.0"
